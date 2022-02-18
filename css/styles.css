@@ -44,7 +44,8 @@ h2 {
 h3 {
   font-size: 3rem;
 }
-h6{
+
+h6 {
   font-size: 1.5rem;
 }
 
@@ -139,7 +140,7 @@ a {
 /* ------------------ here ends category and about us sections -------------------- */
 .main {
   margin-top: 8rem;
-  max-width: 60%;
+  max-width: 120rem;
 }
 
 .product {
@@ -246,9 +247,14 @@ a {
   grid-column: 5/7;
 }
 
-.footer-container {
+/* Footer */
+.site-footer {
+  border-top: .6px solid rgb(190, 190, 190);
   margin-top: 10rem;
-  background-color: #ccc;
+}
+
+.footer-container {
+  width: 140rem;
   height: 50rem;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -261,20 +267,20 @@ a {
   flex-direction: column;
 }
 
-.footer-container h3{
+.footer-container h3 {
   margin: 4rem 0;
 }
+
 .footer-container a {
   margin: 2rem;
   font-size: 2rem;
 }
-.copy{
-  width: 100%;
-  background: rgb(95, 95, 209);
-  display: grid;
-  grid-column: 1/4;
-  align-items: center;
-  font-weight: 400;
-  
 
+.site-footer p {
+  width: 100%;
+  text-align: center;
+  height: 5rem;
+  background-color: rgb(51, 49, 49);
+  color: #7e7e7e;
+  line-height: 5rem;
 }
