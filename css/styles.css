@@ -68,7 +68,6 @@ a {
 .nav-container {
   width: 100%;
   border-top: 1px solid black;
-  border-bottom: 1px solid black;
 }
 
 .container {
@@ -81,6 +80,10 @@ a {
   display: flex;
   justify-content: space-between;
   font-size: 2rem;
+}
+
+.nav-1 a:hover {
+  color: #037bc0;
 }
 
 .hero {
@@ -274,6 +277,10 @@ a {
 .footer-container a {
   margin: 2rem;
   font-size: 2rem;
+}
+
+.footer-container a:hover {
+  color: #037bc0;
 }
 
 .site-footer p {

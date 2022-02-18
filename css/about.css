@@ -85,6 +85,10 @@ a {
   font-size: 2rem;
 }
 
+.nav-1 a:hover {
+  color: #037bc0;
+}
+
 /* ************** here ends header ************* */
 /* Main-body */
 .main {
@@ -94,15 +98,18 @@ a {
 .about-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-columns: repeat(autofit, minmax(25rem, 1fr));/* Esto es un responsive dentro de grid */
+  grid-template-columns: repeat(autofit, minmax(25rem, 1fr));
+  /* Esto es un responsive dentro de grid */
   column-gap: 4rem;
 }
-.about-us{
+
+.about-us {
   display: flex;
   flex-direction: column;
-  
+
 }
-.about-us p{
+
+.about-us p {
   height: 8rem;
   margin: 2rem 1rem;
 
@@ -138,6 +145,11 @@ a {
   margin: 2rem;
   font-size: 2rem;
 }
+
+.footer-container a:hover {
+  color: #037bc0;
+}
+
 
 .site-footer p {
   width: 100%;

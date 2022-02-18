@@ -57,7 +57,7 @@ a {
 
 .main {
   margin-top: 8rem;
-  max-width: 120rem;
+  max-width: 100rem;
 }
 
 /* --------------- Here ends global css ------------------ */
@@ -96,6 +96,63 @@ a {
 
 /* ************  here ends Header *********** */
 
+/* Main Blog */
+.blog-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  column-gap: 4rem;
+}
+
+.articles {
+  border-bottom: 2px solid #e1e1e1;
+  padding-bottom: 4rem;
+  margin-top: 10rem;
+  margin-bottom: 2rem;
+}
+
+.articles:last-of-type {
+  border-bottom: none;
+}
+
+.meta-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.meta-info p {
+  margin: 1rem 0;
+  font-weight: 700;
+}
+
+.meta-info span {
+  color: #037bc0;
+}
+.article-blog{
+  margin: 3rem 0;
+}
+
+.btn {
+  display: block;
+  color: #FFFFFF;
+  font-size: 2rem;
+  background-color: #8cbc00;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: .02rem;
+  padding: 2rem;
+  margin: 2rem 0;
+  text-align: center;
+  transition: background-color .3s ease-in-out;
+  max-width: 30rem;
+}
+
+.btn:hover {
+  background-color: #769c02;
+}
+
+
+
+/* **** here ends the Main ********* */
 
 /* Footer */
 .site-footer {
@@ -129,7 +186,6 @@ a {
 .footer-container a:hover {
   color: #037bc0;
 }
-
 
 .site-footer p {
   width: 100%;

@@ -55,11 +55,6 @@ a {
   color: black;
 }
 
-.main {
-  margin-top: 8rem;
-  max-width: 120rem;
-}
-
 /* --------------- Here ends global css ------------------ */
 
 /* Header */
@@ -94,8 +89,119 @@ a {
   color: #037bc0;
 }
 
-/* ************  here ends Header *********** */
+/* *********** here ends header ********* */
 
+/* Main */
+.main {
+  margin-top: 8rem;
+  max-width: 120rem;
+}
+
+.product {
+  background-color: #037bc0;
+}
+
+.products-info {
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.products-info h3 {
+  margin: 2rem 2rem;
+}
+
+.products-info p {
+  font-size: 2rem;
+  margin: 1rem 0 2rem 0;
+}
+
+.price {
+  font-size: 2.8rem;
+  font-weight: 700;
+}
+
+.btn {
+  display: block;
+  color: #FFFFFF;
+  font-size: 2rem;
+  background-color: #8cbc00;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: .02rem;
+  padding: 2rem;
+  margin: 2rem 2rem;
+  transition: background-color .3s ease-out;
+}
+
+.btn:hover {
+  background-color: #769c02;
+}
+
+.product img {
+  transition: transform .3s ease-in-out;
+}
+
+.product img:hover {
+  transform: scale(0.9);
+}
+
+.products-list {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 2rem;
+}
+
+.first-product {
+  padding-top: 7rem;
+}
+
+.first-product p,
+.first-product a {
+  margin-top: 4rem;
+}
+
+.product:nth-child(1) {
+  grid-column: 1/7;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+
+}
+
+.product:nth-child(1) img {
+  height: 43rem;
+  width: 100%;
+  object-fit: cover;
+}
+
+.product:nth-child(2) {
+  grid-column: 1/4;
+}
+
+.product:nth-child(2) img,
+.product:nth-child(3) img {
+  height: 30rem;
+  width: 100%;
+  object-fit: cover;
+}
+
+.product:nth-child(3) {
+  grid-column: 4/7;
+}
+
+.product:nth-child(4) {
+  grid-column: 1/3;
+}
+
+.product:nth-child(5) {
+  grid-column: 3/5;
+}
+
+.product:nth-child(6) {
+  grid-column: 5/7;
+}
+
+/* **** here ends Main ********** */
 
 /* Footer */
 .site-footer {

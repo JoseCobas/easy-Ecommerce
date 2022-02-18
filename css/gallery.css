@@ -57,7 +57,7 @@ a {
 
 .main {
   margin-top: 8rem;
-  max-width: 120rem;
+  max-width: 100rem;
 }
 
 /* --------------- Here ends global css ------------------ */
@@ -95,7 +95,28 @@ a {
 }
 
 /* ************  here ends Header *********** */
+/* Gallery */
+.gallery {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  transition: 500ms ease-in;
+}
 
+.gallery img {
+  height: 20rem;
+  width: 40rem;
+  object-fit: cover;
+}
+
+.gallery img:hover {
+  transform: scale(.9);
+}
+
+/* ****** here ends gallery ******** */
 
 /* Footer */
 .site-footer {
