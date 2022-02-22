@@ -102,7 +102,7 @@ a {
 }
 
 .category h2 {
-  margin: 5rem auto;
+  margin: 7rem;
 }
 
 .category a {
@@ -124,9 +124,9 @@ a {
   background-image: linear-gradient(to right, transparent 50%, #037bc0 50%, #037bc0 100%), url(../Assets/nosotros.jpg);
   background-position: left center;
   background-repeat: no-repeat;
-  background-size: 100%, 120rem;
+  background-size: 100%, 130rem;
   padding: 10rem 0;
-  margin: 10rem 0;
+  margin: 2rem 0;
 }
 
 .about-us-grid {
@@ -138,12 +138,20 @@ a {
 .about-us-text {
   grid-column: 2 / 3;
   color: #FFFFFF;
+  /*  display: block;
+  margin-left: 40rem;
+  text-align: center ;
+  width: 60%; */
 }
 
 /* ------------------ here ends category and about us sections -------------------- */
 .main {
   margin-top: 8rem;
   max-width: 120rem;
+}
+
+.main h2 {
+  margin-bottom: 10rem;
 }
 
 .product {
