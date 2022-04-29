@@ -95,6 +95,10 @@ a {
 }
 
 /* ------------- here ens header-nav-banner ----------------- */
+.container .category{
+  margin-top: 6rem;
+  margin-bottom: 10rem;
+}
 .category-list {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -146,7 +150,7 @@ a {
 
 /* ------------------ here ends category and about us sections -------------------- */
 .main {
-  margin-top: 8rem;
+  margin-top: 10rem;
   max-width: 120rem;
 }
 
